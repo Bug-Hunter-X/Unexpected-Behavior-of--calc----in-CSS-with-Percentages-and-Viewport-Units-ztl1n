@@ -1,0 +1,7 @@
+The CSS property `calc()` is not working as expected when combined with other properties, particularly when using percentages or viewport units. For example, the following code snippet may not produce the expected result:
+```css
+.element {
+  width: calc(50% - 10px);
+}
+```
+This issue might be caused by incorrect calculation order, unit incompatibility, or unexpected behavior with different browsers.
